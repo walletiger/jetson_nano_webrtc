@@ -21,6 +21,6 @@ https://xxx.xxx.xx.xxx
 
 faq:
 1 pipeline start failed 
-I use the csi camera and usb-microphone, to replace it with your environment . reference  "L4T Jetson Nano R32.1 Multimedia API"
+I use the csi camera and usb-microphone, to replace it with your environment . reference  "docs/Accelerated_GStreamer_User_Guide.pdf "
 
 
