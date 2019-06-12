@@ -1,0 +1,7 @@
+orginal webrtcbin plugin in jetson-nano does not work for dependence missing nicesrc/nicesink,
+i just re-compiling the plugin :)
+
+usage:
+	tar xzf extract_to_usr_lib.tar.gz -C /usr/lib 
+
+
