@@ -1,0 +1,7 @@
+1 webrtcbin plugin in jetson nano does not work for missing dependence nicesrc/nicesink and GstWebRTC-1.0.typelib,
+the patch direction just fixed this problems.
+
+2 modified https://github.com/centricular/gstwebrtc-demos.git , the demo needs to start browsers first and then start jeston-client,
+just add client-list-push to auto connect
+
+3 modified the webrtc client, to use jetson_nano hw-acceled pipline and hardware
