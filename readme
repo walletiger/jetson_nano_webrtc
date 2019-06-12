@@ -5,3 +5,22 @@ the patch direction just fixed this problems.
 just add client-list-push to auto connect
 
 3 modified the webrtc client, to use jetson_nano hw-acceled pipline and hardware
+
+start_the_server:
+cd server &&  python3 simple-server.py
+
+
+start_the_client:
+cd client && python3 jetson_webrtc.py --server=wss://127.0.0.1:8443 -1
+
+
+start the browser:
+https://xxx.xxx.xx.xxx
+
+
+
+faq:
+1 pipeline start failed 
+I use the csi camera and usb-microphone, to replace it with your environment . reference  "L4T Jetson Nano R32.1 Multimedia API"
+
+
